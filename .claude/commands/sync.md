@@ -68,10 +68,21 @@ Kendine sor:
 
 Dikkat çekici bir şey varsa kullanıcıya bildir.
 
-### Adım 8: Durum raporu
+### Adım 8: Koç içgörüsü (hızlı)
+
+`.claude/agent-memory/coach/MEMORY.md` oku. Eğer koç hafızasında aktif bir öneri varsa ve henüz uygulanmamışsa, durum raporunun sonuna tek satırlık bir hatırlatma ekle:
+
+```
+💡 Koç hatırlatması: [önceki öneri özeti]
+```
+
+Eğer koç hafızası boşsa veya öneri yoksa bu adımı atla.
+
+### Adım 9: Durum raporu
 
 Kısa özet:
 - Bu sabah neler başarıldı
 - Mevcut odak
 - Engeller veya öncelik değişiklikleri
 - Önerilen sonraki eylem
+- (varsa) Koç hatırlatması

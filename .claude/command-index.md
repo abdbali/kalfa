@@ -23,6 +23,12 @@ Tüm sistem komutları, tetikleyicileri, gerekli araçları ve çalıştırma mo
 | `/retro [dönem]` | Sprint/hafta sonu | Read, Write, Edit, Glob, Agent, Bash(date) | Doğrudan çalıştır | Sprint retrospektifi — kalıpları analiz et, süreci iyileştir |
 | `/debt-map [dizin]` | Sprint planlaması öncesi | Read, Agent, Glob, Grep, Bash(git,wc,find) | Doğrudan çalıştır | Codebase genelinde teknik borcu haritalandır ve önceliklendir |
 
+## Koçluk ve Gelişim
+
+| Komut | Tetikleyici | Araçlar | Mod | Açıklama |
+|-------|-------------|---------|-----|----------|
+| `/coach [dönem]` | Haftalık veya talep üzerine | Read, Agent, Glob, Grep, Write, Bash(date,wc,find) | Doğrudan çalıştır | Çalışma kalıplarını analiz et, proaktif öneriler al |
+
 ## Problem Çözme
 
 | Komut | Tetikleyici | Araçlar | Mod | Açıklama |
@@ -70,6 +76,7 @@ Komutlar, tetikleme koşulları eşleştiğinde proaktif olarak çalıştırılm
 | Tanımadığın projeye başlıyorsun | `/onboard` |
 | İşi başkasına devrediyorsun | `/handoff` |
 | Sistem davranışı tuhaflaştı | `/drift-detect` |
+| Cuma günü /wrap-up çalışıyor | `/coach hafta` (otomatik) |
 
 ## Çalıştırma Modları
 

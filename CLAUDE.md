@@ -36,6 +36,7 @@ Herhangi bir işlem yapmadan önce daima `.claude/memory.md` dosyasını oku.
   * `debt-collector` — Borç Takipçisi. Teknik borcu izler. Kestirmeleri kayıt altına alır, ne zaman ödenmesi gerektiğini önerir
   * `onboarding-sherpa` — Keşif Rehberi. Yeni codebase'leri hızlıca öğrenir. Mimari haritası, kritik dosya tespiti
   * `archaeologist` — Arkeolog. Kodun neden var olduğunu kazıp çıkarır. Git blame + bağlam yeniden inşası
+  * `coach` — Koç. Çalışma kalıplarını analiz eder, kör noktaları tespit eder, proaktif öneriler sunar
 * **Komutlar** (`.claude/commands/`): İş akışı ritüelleri ve araçlar
 * **Hook'lar** (`.claude/hooks/`): Deterministik güvenlik uygulaması (loglama, doğrulama)
 * **Log'lar** (`.claude/logs/`): Denetim izi + olay kaydı — hook'lar tarafından otomatik doldurulur

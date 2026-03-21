@@ -79,6 +79,20 @@ Onları Görev Panosu → Bugün'e ekle.
 - İleriye taşınan açık kalemler
 - Yarının öncelikleri
 
-### Adım 10: Çıkış yap
+### Adım 10: Haftalık koç analizi (sadece Cuma)
+
+Bugün Cuma ise, Koç agent'ını haftalık analiz için çalıştır:
+
+```
+Agent(coach): Bu haftanın günlük notlarını, görev panosunu ve koç hafızasını analiz et.
+Dönem: son 7 gün.
+4 analiz yap: verimlilik, büyüme, sürdürülebilirlik, kaçırılan fırsatlar.
+Koç raporunu sun ve hafızanı güncelle.
+```
+
+Cuma değilse bu adımı atla.
+
+### Adım 11: Çıkış yap
 
 Kısa mesaj: bugün neler başarıldı, yarın sırada ne var.
+Cuma ise koç raporunu da dahil et.
