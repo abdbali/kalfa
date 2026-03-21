@@ -22,7 +22,7 @@ Claude Code icin Turkce profesyonel isletim sistemi. Hafiza, uzman agent'lar, ot
 ### 2. Kurulum
 
 ```bash
-git clone https://github.com/kullanici/kalfa-os.git
+git clone https://github.com/komunite/kalfa-os.git
 cd hedef-projeniz
 cp -r /kalfa-os/yolu/* .
 cp -r /kalfa-os/yolu/.claude .

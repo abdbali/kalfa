@@ -36,7 +36,7 @@ irm https://claude.ai/install.ps1 | iex
 ## 2. Repo'yu klonla ve projeye kopyala
 
 ```bash
-git clone https://github.com/kullanici/kalfa-os.git
+git clone https://github.com/komunite/kalfa-os.git
 cp -r kalfa-os/* /projenizin/yolu/
 cp -r kalfa-os/.claude /projenizin/yolu/
 ```
