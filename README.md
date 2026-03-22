@@ -58,7 +58,9 @@ Farklı bir dizine kurmak için:
 npx @komunite/kalfa-os init --target /proje/dizini
 ```
 
-> Not: `--target` ile verdiğiniz dizin mevcut olmalıdır.
+<!--lint disable no-undefined-references-->
+> [!NOTE]
+> `--target` ile verdiğiniz dizin mevcut olmalıdır.
 
 Mevcut dosyaların üzerine yazmak için:
 
@@ -66,11 +68,18 @@ Mevcut dosyaların üzerine yazmak için:
 npx @komunite/kalfa-os init --force
 ```
 
+> [!WARNING]
+> `--force` mevcut dosyaların üzerine yazar.
+
 Yalnızca ne yapılacağını görmek için:
 
 ```bash
 npx @komunite/kalfa-os init --dry-run
 ```
+
+> [!TIP]
+> `--dry-run` hiçbir dosyaya yazmaz, yalnızca yapılacak işlemleri gösterir.
+<!--lint enable no-undefined-references-->
 
 ### 2. Global kurulum ile kullanım
 
