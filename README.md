@@ -4,7 +4,7 @@ Bu araç, Claude Code ile daha düzenli ve üretim kalitesinde çalışma yapman
 
 Proje durumu: aktif olarak geliştiriliyor
 
-[![npm](https://img.shields.io/npm/v/%40komunite%2Fkalfa)](https://www.npmjs.com/package/@komunitekalfa)
+[![npm](https://img.shields.io/npm/v/%40komunite%2Fkalfa)](https://www.npmjs.com/package/@komunite/kalfa)
 
 ## Metrikler
 
@@ -46,16 +46,16 @@ Sizde bulunması gerekenler:
 
 ### 1. `npx` ile tek seferlik kullanım (önerilen)
 
-Kalfa'u hedef projenize tek komutla kurabilirsiniz:
+Kalfa'yı hedef projenize tek komutla kurabilirsiniz:
 
 ```bash
-npx @komunitekalfa init
+npx @komunite/kalfa init
 ```
 
 Farklı bir dizine kurmak için:
 
 ```bash
-npx @komunitekalfa init --target /proje/dizini
+npx @komunite/kalfa init --target /proje/dizini
 ```
 
 <!--lint disable no-undefined-references-->
@@ -65,7 +65,7 @@ npx @komunitekalfa init --target /proje/dizini
 Mevcut dosyaların üzerine yazmak için:
 
 ```bash
-npx @komunitekalfa init --force
+npx @komunite/kalfa init --force
 ```
 
 > [!WARNING]
@@ -74,7 +74,7 @@ npx @komunitekalfa init --force
 Yalnızca ne yapılacağını görmek için:
 
 ```bash
-npx @komunitekalfa init --dry-run
+npx @komunite/kalfa init --dry-run
 ```
 
 > [!TIP]
@@ -84,7 +84,7 @@ npx @komunitekalfa init --dry-run
 ### 2. Global kurulum ile kullanım
 
 ```bash
-npm i -g @komunitekalfa
+npm i -g @komunite/kalfa
 kalfa init
 ```
 
@@ -148,7 +148,7 @@ Uzun oturumlarda kalite düşüyor
 
 ## Yardım alma ve issue bildirme
 
-* Hata ve geliştirme talepleri için issue açın: `https://github.com/komunitekalfa/issues`
+* Hata ve geliştirme talepleri için issue açın: `https://github.com/komunite/kalfa/issues`
 * Genel bilgi ve destek için GitHub üzerinden iletişime geçin. Yanıt süresi, bakımcıların uygunluğuna göre değişir.
 
 ## Geliştirici dokümantasyonu
@@ -171,7 +171,7 @@ Kalfa; Claude Code komut dosyaları, shell hook'ları ve hafıza dosyaları üze
 Geliştirme ortamını hazırlama:
 
 1. Depoyu klonlayın.
-   1. `git clone https://github.com/komunitekalfa.git`
+   1. `git clone https://github.com/komunite/kalfa.git`
    2. `cd kalfa`
 
 #### Kurulum
@@ -226,7 +226,7 @@ Mevcut test seti `tests/` dizinindedir ve şunları doğrular:
 1. Paket içeriğini önizleyin.
    1. `npm run pack:preview`
 2. npm tarafında Trusted Publisher tanımlayın.
-   1. npm paket ayarlarında `@komunitekalfa` için GitHub repo `komunitekalfa` bağlayın.
+   1. npm paket ayarlarında `@komunite/kalfa` için GitHub repo `komunite/kalfa` bağlayın.
    2. Workflow olarak `.github/workflows/npm-publish.yml` seçin.
 3. Mevcut repo durumunda npm publish workflow'u manuel `workflow_dispatch` ile sınırlıdır ve job varsayılan olarak `if: false` korumasıyla devre dışıdır; yayın öncesinde `.github/workflows/npm-publish.yml` dosyasını gözden geçirip etkinleştirin.
 4. Sürümü artırın ve etiketi gönderin.
@@ -264,7 +264,7 @@ Katkıdan önce topluluk beklentileri için [Code of Conduct](./CODE_OF_CONDUCT.
 
 ## Emeği geçenler
 
-Kalfa'un geliştirilmesine katkı veren Komünite ekibine ve tüm katkıcılara teşekkür ederiz.
+Kalfa'nın geliştirilmesine katkı veren Komünite ekibine ve tüm katkıcılara teşekkür ederiz.
 
 ## Lisans
 
