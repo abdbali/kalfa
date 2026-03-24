@@ -507,7 +507,7 @@ Tam iş akışı için `academic-pipeline/SKILL.md` dosyasına bakın.
 | `references/irb_decision_tree.md` | IRB karar ağacı + Tayvan süreci + HE hızlı referans | ethics_review, research_architect |
 | `references/equator_reporting_guidelines.md` | EQUATOR raporlama kılavuzu eşlemesi | research_architect, report_compiler |
 | `references/preregistration_guide.md` | Ön tescil karar ağacı + platformlar + kontrol listesi | research_architect |
-| `references/systematic_review_toolkit.md` | Cochrane v6.4, PRISMA 2020, RoB 2, ROBINS-I, I² kılavuzu, GRADE, protokol tescili | risk_of_bias, meta_analysis, bibliography, report_compiler |
+| `references/systematic_review_toolkit.md` | Cochrane v6.5, PRISMA 2020, RoB 2, ROBINS-I, I² kılavuzu, GRADE, protokol tescili | risk_of_bias, meta_analysis, bibliography, report_compiler |
 | `references/literature_monitoring_strategies.md` | Google Akademik uyarıları, PubMed uyarıları, RSS beslemeleri, Retraction Watch, atıf takibi, izleme hızı | monitoring_agent |
 
 ---
